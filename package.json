@@ -1,34 +1,34 @@
 {
-  "name": "ng2-fuse",
-  "version": "0.1.0",
-  "description": "Angular 2 pipe for fuzzy-searching. Powered by Fuse.js",
+  "name": "ng-fuse",
+  "version": "0.2.0",
+  "description": "Angular pipe for fuzzy-searching. Powered by Fuse.js",
   "main": "index.js",
   "scripts": {
     "test": "exit"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/caiobsouza/ng2-fuse.git"
+    "url": "git+https://github.com/kacase/ng-fuse.git"
   },
   "keywords": [
-    "angular 2",
+    "angular",
     "fuse.js",
     "fuzzy",
     "search",
-    "pipe"    
+    "pipe"
   ],
-  "author": "caiobsouza <caiobsouza@hotmail.com>",
+  "author": "kacase <kacase@me.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/caiobsouza/ng2-fuse/issues"
+    "url": "https://github.com/kacase/ng-fuse/issues"
   },
-  "homepage": "https://github.com/caiobsouza/ng2-fuse#readme",
+  "homepage": "https://github.com/kacase/ng-fuse#readme",
   "dependencies": {
-    "fuse.js": "^3.0.4"
+    "fuse.js": "^3.2.1"
   },
   "peerDependencies": {
-    "@angular/common": "^2.0.0",
-    "@angular/core": "^2.0.0",
-    "@angular/forms": "^2.0.0"
+    "@angular/common": "^6.0.0",
+    "@angular/core": "^6.0.0",
+    "@angular/forms": "^6.0.0"
   }
 }
