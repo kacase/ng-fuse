@@ -1,14 +1,20 @@
-# ng2-fuse (NgFuse)
-[![npm version](https://badge.fury.io/js/ng2-fuse.svg)](https://badge.fury.io/js/ng2-fuse)
-[![npm downloads](https://img.shields.io/npm/dt/ng2-fuse.svg)](https://npm-stat.com/charts.html?package=ng2-fuse)
+# ng-fuse (NgFuse)
 
-**NgFuse provides an Angular 2 pipe for fuzzy-searching.** <br>This package is powered by the **awesome** and lightweight library [Fuse.js](http://fusejs.io/).  
+[![npm version](https://badge.fury.io/js/ng-fuse.svg)](https://badge.fury.io/js/ng-fuse)
+[![npm downloads](https://img.shields.io/npm/dt/ng-fuse.svg)](https://npm-stat.com/charts.html?package=ng2-fuse)
+
+### This is a fork of the ng2-fuse package by caiobsouza which seems unmaintained, to enable it for future versions of Angular.
+
+**NgFuse provides an Angular 2 pipe for fuzzy-searching.** <br>This package is powered by the **awesome** and lightweight library [Fuse.js](http://fusejs.io/).
 
 ## Installation
-> npm install ng2-fuse
+
+> npm install ng-fuse
 
 ## Usage
- Import NgFuseMode in ```app.module.ts```
+
+Import NgFuseMode in `app.module.ts`
+
 ```
 import { NgFuseModule } from 'ng2-fuse';
 @NgModule({
@@ -21,12 +27,14 @@ import { NgFuseModule } from 'ng2-fuse';
 })
 ```
 
-Using NgFuse within ```*ngFor``` directive
+Using NgFuse within `*ngFor` directive
+
 ```
 <li *ngFor="let item of (collection | ngFuse:queryString:{keys: ['name', 'email']})"></li>
 ```
 
 ### Options
+
 NgFuse uses [Fuse.js](http://fusejs.io/) default options. For more details, see [Fuse.js Official Documentation](http://fusejs.io/)
 
 ```

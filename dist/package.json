@@ -2,23 +2,27 @@
   "name": "ng-fuse",
   "version": "0.2.2",
   "description": "Angular pipe for fuzzy-searching. Powered by Fuse.js",
-  "main": "index.js",
-  "scripts": {
-    "test": "exit",
-    "packagr": "ng-packagr -p ng-package.json"
-  },
+  "main": "bundles/ng-fuse.umd.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kacase/ng-fuse.git"
   },
-  "keywords": ["angular", "fuse.js", "fuzzy", "search", "pipe"],
+  "keywords": [
+    "angular",
+    "fuse.js",
+    "fuzzy",
+    "search",
+    "pipe"
+  ],
   "author": "kacase <kacase@me.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/kacase/ng-fuse/issues"
   },
   "homepage": "https://github.com/kacase/ng-fuse#readme",
-  "dependencies": {},
+  "dependencies": {
+    "tslib": "^1.9.0"
+  },
   "peerDependencies": {
     "fuse.js": "^3.2.1",
     "@angular/common": "^6.0.0",
@@ -33,5 +37,14 @@
     "@angular/forms": "^6.1.7",
     "ng-packagr": "^4.1.1",
     "typescript": "^2.7.2"
-  }
+  },
+  "module": "fesm5/ng-fuse.js",
+  "es2015": "fesm2015/ng-fuse.js",
+  "esm5": "esm5/ng-fuse.js",
+  "esm2015": "esm2015/ng-fuse.js",
+  "fesm5": "fesm5/ng-fuse.js",
+  "fesm2015": "fesm2015/ng-fuse.js",
+  "typings": "ng-fuse.d.ts",
+  "metadata": "ng-fuse.metadata.json",
+  "sideEffects": false
 }
