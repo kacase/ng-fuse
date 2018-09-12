@@ -14,6 +14,8 @@
 
 ## Usage
 
+### Pipe
+
 Import NgFuseMode in `app.module.ts`
 
 ```
@@ -27,9 +29,21 @@ import { NgFuseModule } from 'ng2-fuse';
   ...
 })
 ```
+### Pipe
 
 Using NgFuse within `*ngFor` directive
 
+| variable      | explanation                                             |
+|---------------|---------------------------------------------------------|
+| `collection`  | the array over which ngFor will iterate                 |
+| `queryString` | the search term you want to filter your collection with |
+| `options`     | options for the search. make sure to add the index keys |
+```
+<li *ngFor="let item of (collection | ngFuse:queryString:options)"></li>
+```
+
+### Keys
+To tell fuse.js which of your array's element's properties you would like to search through, make sure to add them to your options like the following 
 ```
 <li *ngFor="let item of (collection | ngFuse:queryString:{keys: ['name', 'email']})"></li>
 ```
