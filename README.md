@@ -1,7 +1,7 @@
 # ng-fuse (NgFuse)
 
 [![npm version](https://badge.fury.io/js/ng-fuse.svg)](https://badge.fury.io/js/ng-fuse)
-[![npm downloads](https://img.shields.io/npm/dt/ng-fuse.svg)](https://npm-stat.com/charts.html?package=ng2-fuse)
+[![npm downloads](https://img.shields.io/npm/dt/ng-fuse.svg)](https://npm-stat.com/charts.html?package=ng-fuse)
 
 ### This is a fork of the ng2-fuse package by caiobsouza which seems unmaintained, to enable it for future versions of Angular.
 
