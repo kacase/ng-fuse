@@ -9,7 +9,8 @@
 
 ## Installation
 
-> npm install ng-fuse
+> npm i fuse.js --save
+> npm i ng-fuse --save
 
 ## Usage
 
